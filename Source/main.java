@@ -32,6 +32,7 @@ public static void main(String[] args)
         if(checkWin.PlayerWin(playerarr)) 
         {
             System.out.println("Player wins!");
+            pb.gameBoard(gameBoard);
             break;
         }
        int cos = pin.returnCPUPlay(playerarr, cpuarr, r);
@@ -39,6 +40,7 @@ public static void main(String[] args)
         if(checkWin.PlayerWin(cpuarr))
         {
             System.out.println("CPU wins!");
+            pb.gameBoard(gameBoard);
             break;
         }
         }
