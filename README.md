@@ -1,5 +1,5 @@
 # JAVA-TicTacToe
-A simple tictactoe game made in JAVA
+A simple tictactoe game made in JAVA with every part broken down into a different file
 
 ######**RUNNING THE PROGRAM**
 
